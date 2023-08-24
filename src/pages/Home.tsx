@@ -2,6 +2,8 @@ import * as React from "react";
 import Header from "./Header";
 import "../assets/css/index.css";
 import Content1 from "./Content1";
+import CounterComponent from "./CounterComponent";
+import Footer from "./Footer";
 
 const Home: React.FC = () => {
   return (
@@ -9,7 +11,9 @@ const Home: React.FC = () => {
       <Header />
       <div id="container">
         <Content1></Content1>
+        <CounterComponent></CounterComponent>
       </div>
+      <Footer />
     </>
   );
 };

@@ -1,0 +1,105 @@
+#footer {
+  position: relative;
+  background-color: #0f5fa6;
+}
+#footer .center {
+  color: #fff;
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+#footer .center .f-logo {
+  padding-top: 80px;
+  padding-bottom: 42px;
+}
+#footer .center .f-icon {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 45px;
+  font-size: 30px;
+}
+#footer .center .f-icon li {
+  margin: 0 30px;
+}
+#footer .center .f-icon li a {
+  color: #fff;
+}
+#footer .center p {
+  padding-bottom: 50px;
+  font-weight: bold;
+  font-size: 16px;
+}
+#footer .center .f-info {
+  padding-top: 50px;
+}
+#footer .center .copy {
+  padding-bottom: 70px;
+  font-size: 13px;
+}
+#footer .center .adress span {
+  font-size: 13px;
+  line-height: 25px;
+}
+#footer .center .adress span::after {
+  display: inline-block;
+  content: "";
+  height: 10px;
+  width: 1px;
+  background-color: #777;
+  margin: 0 10px;
+}
+#footer .center .adress span:nth-child(2)::after,
+#footer .center .adress span:nth-child(5)::after {
+  display: none;
+}
+#footer #scTop {
+  position: absolute;
+  right: 95px;
+  top: 60px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+#footer #scTop .upWrap {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  line-height: 50px;
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 1000px) {
+  #footer .center {
+    width: 80%;
+  }
+  #footer #scTop {
+    right: 35px;
+  }
+}
+@media screen and (max-width: 730px) {
+  #footer .center {
+    width: 90%;
+  }
+  #footer .center p {
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-size: 13px;
+  }
+  #footer .center .f-info {
+    padding-top: 30px;
+  }
+  #footer .center .copy {
+    padding-bottom: 50px;
+    font-size: 11px;
+  }
+  #footer .center .adress span {
+    font-size: 11px;
+    line-height: 20px;
+  }
+  #footer .center .adress span:nth-child(2) {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
