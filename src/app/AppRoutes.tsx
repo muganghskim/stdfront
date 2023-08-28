@@ -3,6 +3,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "../pages/Home";
 import Login from "../pages/Login";
 import Join from "../pages/Join";
+import Menu from "../pages/Menu";
+import Donaition from "../pages/Donaition";
 
 function AppRoutes() {
   return (
@@ -11,6 +13,9 @@ function AppRoutes() {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/join" element={<Join />} />
+        <Route path="/menu" element={<Menu />} />
+        <Route path="/menu/:category" element={<Menu />} />
+        <Route path="/donaition" element={<Donaition />} />
         {/*  추가적인 라우트를 이곳에 작성해주세요  */}
       </Routes>
     </BrowserRouter>
