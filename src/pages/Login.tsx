@@ -46,13 +46,13 @@ const Login: React.FC = () => {
                 type="text"
                 name="email"
                 value={formData.email}
-                placeholder="email"
+                placeholder="Email"
                 onChange={handleChange}
               ></input>
               <input
                 id="userpass"
                 type="password"
-                name="userpass"
+                name="password"
                 value={formData.password}
                 placeholder="Password"
                 onChange={handleChange}

@@ -146,7 +146,7 @@ const Join: React.FC = () => {
                 id="userid"
                 type="text"
                 name="email"
-                placeholder="email"
+                placeholder="Email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
               ></input>
