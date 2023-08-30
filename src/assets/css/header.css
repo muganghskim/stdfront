@@ -64,6 +64,9 @@
 #header .center .gnbWrap .gnb > li .depth li:hover {
   font-weight: bold;
 }
+#header .center .entireJoin {
+  margin-top: 20px;
+}
 #header .center .galBtn {
   margin-top: 30px;
   margin-left: 100px;
@@ -79,6 +82,14 @@
   text-align: center;
   transition: all 0.5s;
 }
+
+#header .center .joinWrap a {
+  color: #0f5fa6;
+  margin-left: 15px;
+}
+#header .center .joinWrap a i {
+  margin: 0 5px 20px 10px;
+}
 #header .center .galBtn a:hover {
   background-color: #f7f6f3;
   border: 1px solid #0f5fa6;
@@ -87,11 +98,11 @@
 }
 #header .center .h-icon {
   display: flex;
+  margin-left: 45px;
   font-size: 20px;
 }
 #header .center .h-icon li {
   margin: 0 10px;
-  line-height: 100px;
 }
 #header .center .h-icon li a {
   color: #0f5fa6;
@@ -210,17 +221,14 @@
   #header .center .gnbWrap .gnb > li {
     margin: 0;
   }
+  #header .center .joinWrap {
+    margin-left: -30px;
+  }
 }
 @media screen and (max-width: 1200px) {
   #header .center .logo {
     margin-left: 100px;
     margin-right: -60px;
-  }
-  #header .center .galBtn {
-    margin-left: 10px;
-  }
-  #header .center .h-icon {
-    margin-right: 100px;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -231,6 +239,9 @@
   #header .center .logo {
     margin: unset;
     line-height: 80px;
+  }
+  #header .center .joinWrap {
+    display: none;
   }
   #header .center .gnbWrap,
   #header .center .galBtn,

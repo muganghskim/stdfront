@@ -5,6 +5,7 @@ import Login from "../pages/Login";
 import Join from "../pages/Join";
 import Menu from "../pages/Menu";
 import Donaition from "../pages/Donaition";
+import LoginSuccess from "../pages/LoginSuccess";
 
 function AppRoutes() {
   return (
@@ -16,6 +17,7 @@ function AppRoutes() {
         <Route path="/menu" element={<Menu />} />
         <Route path="/menu/:category" element={<Menu />} />
         <Route path="/donaition" element={<Donaition />} />
+        <Route path="/loginSuccess" element={<LoginSuccess />} />
         {/*  추가적인 라우트를 이곳에 작성해주세요  */}
       </Routes>
     </BrowserRouter>

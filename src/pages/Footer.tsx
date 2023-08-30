@@ -11,18 +11,24 @@ const Footer: React.FC = () => {
           </div>
           <ul className="f-icon">
             <li>
-              <a href="#">
-                <i className="fa-brands fa-instagram"></i>
+              <a href="http://localhost:8096/oauth2/authorization/google">
+                <i className="google-i">
+                  <img src={process.env.PUBLIC_URL + "/img/google.png"}></img>
+                </i>
               </a>
             </li>
             <li>
-              <a href="#">
-                <i className="fa-brands fa-youtube"></i>
+              <a href="http://localhost:8096/oauth2/authorization/naver">
+                <i className="naver-i">
+                  <img src={process.env.PUBLIC_URL + "/img/naver.png"}></img>
+                </i>
               </a>
             </li>
             <li>
-              <a href="#">
-                <i className="fa-brands fa-pinterest"></i>
+              <a href="http://localhost:8096/oauth2/authorization/kakao">
+                <i className="kakao-i">
+                  <img src={process.env.PUBLIC_URL + "/img/kko.png"}></img>
+                </i>
               </a>
             </li>
           </ul>

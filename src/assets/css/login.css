@@ -92,7 +92,11 @@ body {
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
   border-radius: 25px;
 }
-.loginWrap .center .formWrap form button {
+.loginWrap .center .formWrap form .loginButtonWrap {
+  display: flex;
+  justify-content: space-between;
+}
+.loginWrap .center .formWrap form .loginButtonWrap button {
   width: 140px;
   height: 50px;
   margin-left: 50px;
@@ -103,6 +107,15 @@ body {
   border: none;
   border-radius: 25px;
   cursor: pointer;
+}
+.loginWrap .center .formWrap form .loginButtonWrap .h-icon {
+  display: flex;
+  font-size: 20px;
+  margin-right: 50px;
+  margin-top: 15px;
+}
+.loginWrap .center .formWrap form .loginButtonWrap .h-icon li {
+  margin: 0 10px;
 }
 .loginWrap .center .formWrap .path_regi {
   text-align: center;
