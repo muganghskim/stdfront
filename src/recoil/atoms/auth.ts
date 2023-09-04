@@ -34,7 +34,7 @@ export const updateLoginStatus = async () => {
 
 export const updateAccessToken = async (refreshToken: string) => {
   const response: any = await axios.post(
-    "http://192.168.50.26:8096/api/update-token",
+    "http://localhost:8096/api/update-token",
     { refreshToken }
   );
   const newAccessToken = response.data.accessToken;
@@ -44,7 +44,7 @@ export const updateAccessToken = async (refreshToken: string) => {
 
 export const login = async (formData: { email: string; password: string }) => {
   const response = await axios.post(
-    "http://192.168.50.26:8096/api/login",
+    "http://localhost:8096/api/login",
     formData
   );
   const { username, email, token, refreshToken } = response.data;
@@ -61,7 +61,7 @@ export const signup = async (formData: {
   password: string;
 }) => {
   const response = await axios.post(
-    "http://192.168.50.26:8096/api/signup",
+    "http://localhost:8096/api/signup",
     formData
   );
   const { username, email, token, refreshToken } = response.data;
@@ -74,7 +74,7 @@ export const signup = async (formData: {
 
 export const logout = async () => {
   try {
-    await axios.post("http://192.168.50.26:8096/api/logout");
+    await axios.post("http://localhost:8096/api/logout");
 
     // 로컬 스토리지에서 토큰 제거
     localStorage.removeItem("token");
@@ -88,7 +88,7 @@ export const logout = async () => {
 export const sendVerificationEmail = async (formData: { email: string }) => {
   try {
     const response = await axios.post(
-      "http://192.168.50.26:8096/api/send-verification-email",
+      "http://localhost:8096/api/send-verification-email",
       formData
     );
 
@@ -109,7 +109,7 @@ export const verifyEmail = async (formData: {
 }) => {
   try {
     const response = await axios.post(
-      "http://192.168.50.26:8096/api/verify-email",
+      "http://localhost:8096/api/verify-email",
       formData
     );
 
