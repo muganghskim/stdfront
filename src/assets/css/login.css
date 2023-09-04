@@ -67,7 +67,7 @@ body {
 }
 .loginWrap .center .formWrap .pathWrap a.on {
   color: #fff;
-  background-color: #1f1e26;
+  background-color: #0f5fa6;
 }
 .loginWrap .center .formWrap .pathWrap a:last-child {
   border-radius: 0 15px 15px 0;
@@ -102,7 +102,7 @@ body {
   margin-left: 50px;
   margin-bottom: 33px;
   font-size: 14px;
-  background-color: #1f1e26;
+  background-color: #0f5fa6;
   color: #fff;
   border: none;
   border-radius: 25px;
