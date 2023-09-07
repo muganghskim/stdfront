@@ -49,11 +49,11 @@ const Content1: React.FC = () => {
           <SwiperSlide className="s1">
             <div className="slide-context">
               <h2 data-aos="fade-down" data-aos-duration="1000">
-                AI 갤러리 인공지능 그리고 예술
+                pacificOcean 해양환경 그리고 예술
               </h2>
               <p data-aos="fade-down" data-aos-duration="1000">
-                인공지능을 이용하여 발현되는 다양한 상상력과 재능<br></br>AI를
-                사용한 예술이란 무엇인가?
+                해양환경 오염에 대처하는 사회적 기업의 자세<br></br>심플한 
+                스타일과 친환경 제품
               </p>
               <div
                 data-aos="fade-up"
@@ -69,10 +69,12 @@ const Content1: React.FC = () => {
           </SwiperSlide>
           <SwiperSlide className="s2">
             <div className="slide-context">
-              <h2>AI 갤러리 인공지능 그리고 예술</h2>
-              <p>
-                인공지능을 이용하여 발현되는 다양한 상상력과 재능<br></br>AI를
-                사용한 예술이란 무엇인가?
+              <h2 data-aos="fade-down" data-aos-duration="1000">
+                pacificOcean 해양환경 그리고 예술
+              </h2>
+              <p data-aos="fade-down" data-aos-duration="1000">
+                해양환경 오염에 대처하는 사회적 기업의 자세<br></br>심플한 
+                스타일과 친환경 제품
               </p>
               <div className="contextBtns">
                 <a className="moreBtn" href="/menu/landscape">
@@ -84,10 +86,12 @@ const Content1: React.FC = () => {
           </SwiperSlide>
           <SwiperSlide className="s3">
             <div className="slide-context">
-              <h2>AI 갤러리 인공지능 그리고 예술</h2>
-              <p>
-                인공지능을 이용하여 발현되는 다양한 상상력과 재능<br></br>AI를
-                사용한 예술이란 무엇인가?
+              <h2 data-aos="fade-down" data-aos-duration="1000">
+                pacificOcean 해양환경 그리고 예술
+              </h2>
+              <p data-aos="fade-down" data-aos-duration="1000">
+                해양환경 오염에 대처하는 사회적 기업의 자세<br></br>심플한 
+                스타일과 친환경 제품
               </p>
               <div className="contextBtns">
                 <a className="moreBtn" href="/menu/landscape">

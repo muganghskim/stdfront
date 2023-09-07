@@ -39,11 +39,11 @@ const CounterComponent: React.FC = () => {
       <div style={{ minHeight: "120vh" }}></div>
       <div className="left_count">
         <h2 data-aos="fade-up" data-aos-duration="1000">
-          AI 갤러리 전시회에서 다양한<br></br>굿즈를 통한 기부를 즐기세요!
+          pacificOcean에서 다양한<br></br>상품을 통한 기부를 즐기세요!
         </h2>
         <p data-aos="fade-up" data-aos-duration="1000">
-          다양한 경로로 사회적 약자들에게 기부 할 수 있습니다.<br></br>전시회에
-          참여하여 AI 갤러리와 기부를 함께 하세요.
+          다양한 경로로 해양환경을 위한 기부를 할 수 있습니다.<br></br>상품 수익의
+          10%를 해양환경과 관련하여 기부합니다. pacificOcean과 기부를 함께 하세요.
         </p>
         <div className="box box1" ref={donaitionRef}>
           <p className="achieve">현재까지 모인 금액</p>

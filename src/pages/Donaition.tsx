@@ -44,12 +44,12 @@ const Donaition: React.FC = () => {
           <h2>
             사회적 기부
             <span>
-              를 통해<br></br>AI 갤러리와 함께 세상을<br></br>
+              를 통해<br></br>pacificOcean과 함께 세상을<br></br>
             </span>
             더 아름답게
             <span>
               {" "}
-              만들어보자<br></br>전시회에서 만나요
+              만들어보자
             </span>
           </h2>
         </div>
@@ -70,11 +70,11 @@ const Donaition: React.FC = () => {
         </div>
         <div className="leftInfo">
           <h2>
-            AI 갤러리 전시회에서 다양한<br></br>굿즈를 통한 기부를 즐기세요!
+            pacificOcean에서 다양한<br></br>상품을 통한 기부를 즐기세요!
           </h2>
           <p>
-            다양한 경로로 사회적 약자들에게 기부 할 수 있습니다.<br></br>
-            전시회에 참여하여 AI 갤러리와 기부를 함께 하세요.
+            다양한 경로로 해양환경 정화에 기부 할 수 있습니다.<br></br>
+            상품 수익의 10%를 해양환경과 관련하여 기부합니다.
           </p>
         </div>
         <div className="right_count">

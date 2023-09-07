@@ -43,13 +43,13 @@ const Footer: React.FC = () => {
             <span>이메일주소 : rhgustmfrh@naver.com</span>
           </div>
           <p className="f-info">
-            해당 사이트에 이용되는 이미지는 midjourney Beta 에서 참조되었습니다.
+            해당 사이트에 이용되는 이미지는 스테이블 디퓨전 에서 참조되었습니다.
           </p>
           <div className="copy">
-            COPYRUGHT (주)ai갤러리 ALL RIGHTS RESERVED.
+            COPYRUGHT (주)pacificOcean ALL RIGHTS RESERVED.
           </div>
         </div>
-        <div id="scTop">
+        <div id="scTop" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
           <div className="upWrap">
             <i className="fa-solid fa-arrow-up-long"></i>
           </div>

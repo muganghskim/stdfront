@@ -26,7 +26,7 @@ const Menu: React.FC = () => {
       <Header />
       <div className="galWrap">
         <div className="center">
-          <h2>GALLERY</h2>
+          <h2>상품</h2>
           <ul className="gal_tapmenu">
             {tabMenuItems.map((item, index) => (
               <li

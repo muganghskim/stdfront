@@ -25,39 +25,36 @@ const Header: React.FC = () => {
 
   const menuData = [
     {
-      name: "Ai 갤러리1",
+      name: "pacificOcean",
       link: "/story",
       subMenu: [
-        { name: "아트스토리", link: "/story" },
-        { name: "주요작품", link: "/frame" },
+        { name: "스토리", link: "/story" },
         { name: "사회적기부", link: "/donaition" }
       ]
     },
     {
-      name: "Ai 갤러리2",
-      link: "/story",
+      name: "상품",
+      link: "/menu",
       subMenu: [
-        { name: "아트스토리", link: "/story" },
-        { name: "주요작품", link: "/frame" },
-        { name: "사회적기부", link: "/donaition" }
+        { name: "모든상품", link: "/menu" },
+        { name: "일상복", link: "/menu/casual" },
+        { name: "스포츠", link: "/menu/sports" }
       ]
     },
     {
-      name: "Ai 갤러리3",
-      link: "/story",
+      name: "매장안내",
+      link: "/store",
       subMenu: [
-        { name: "아트스토리", link: "/story" },
-        { name: "주요작품", link: "/frame" },
-        { name: "사회적기부", link: "/donaition" }
+        { name: "매장찾기", link: "/store" },
+        { name: "오픈예정", link: "/storeopen" }
       ]
     },
     {
-      name: "Ai 갤러리4",
-      link: "/story",
+      name: "공지사항",
+      link: "/board",
       subMenu: [
-        { name: "아트스토리", link: "/story" },
-        { name: "주요작품", link: "/frame" },
-        { name: "사회적기부", link: "/donaition" }
+        { name: "공지사항", link: "/board" },
+        { name: "새로운소식", link: "/news" }
       ]
     }
   ];
@@ -199,7 +196,7 @@ const Header: React.FC = () => {
                 </a>
               </li>
             </ul>
-            <p className="hbgCopy">© 2022 HS Kim AI 갤러리 Portfolio</p>
+            <p className="hbgCopy">© 2022 HS Kim pacificOcean</p>
           </div>
         </div>
       </div>
