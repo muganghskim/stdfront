@@ -108,6 +108,14 @@
   color: #0f5fa6;
 }
 
+.hbgjoinWrap a {
+  color: #0f5fa6;
+}
+
+.hbgjoinWrap a i {
+  margin: 0 5px 20px 10px;
+}
+
 .hbgMenu {
   width: 100%;
   height: 100vh;
@@ -170,23 +178,24 @@
 }
 .hbgMenu .nav .hbgGnb .depthWrap2 .depth2 {
   margin-top: 10px;
-  height: 0;
+  /* height: 0; */
   display: flex;
   flex-direction: column;
   justify-content: center;
-  transition: all 0.5s;
   overflow: hidden;
 }
 .hbgMenu .nav .hbgGnb .depthWrap2 .depth2 li {
-  line-height: 30px;
+  line-height: 0px;
   font-size: 20px;
   text-indent: 10px;
   width: 150px;
   margin-bottom: 10px;
+  transition: all 0.5s;
 }
-.hbgMenu .nav .hbgGnb .depthWrap2 .depth2.on {
-  height: 200px;
+.hbgMenu .nav .hbgGnb .depthWrap2 .depth2 li.on {
+  line-height: 30px;
 }
+
 .hbgMenu .nav .hbgGnb li:hover {
   list-style: circle;
 }

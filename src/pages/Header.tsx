@@ -166,10 +166,15 @@ const Header: React.FC = () => {
                   <a href={"#"}>{menuItem.name}</a>
                   {/* Render submenu if it exists */}
                   {menuItem.subMenu && (
-                    <ul className={`depth2 ${isOpen ? "on" : ""}`}>
+                    <ul className={"depth2"}>
                       {menuItem.subMenu.map((subItem) => (
-                        <li key={subItem.name}>
-                          <a href={subItem.link}>{subItem.name}</a>
+                        <li key={subItem.name} className={isOpen ? "on" : ""}>
+                          <a
+                            href={subItem.link}
+                            style={{ display: isOpen ? "block" : "none" }}
+                          >
+                            {subItem.name}
+                          </a>
                         </li>
                       ))}
                     </ul>
@@ -179,20 +184,47 @@ const Header: React.FC = () => {
             })}
           </ul>
           <div className="hbgFoot">
+            <div className="hbgjoinWrap">
+              {!isLoggedIn ? (
+                <>
+                  <Link to="/login">
+                    <i className="fa-solid fa-arrow-right"></i>로그인
+                  </Link>
+                  <Link to="/join">
+                    <i className="fa-solid fa-user"></i>회원가입
+                  </Link>
+                </>
+              ) : (
+                <>
+                  <Link className="username" to="/my">
+                    {user.username}님
+                  </Link>
+                  <button className="logout" onClick={handleLogout}>
+                    로그아웃
+                  </button>
+                </>
+              )}
+            </div>
             <ul className="hbgIcon">
               <li>
-                <a href="/oauth2/authorization/google">
-                  <i className="fab fa-facebook-f color-white"></i>
+                <a href="http://localhost:8096/oauth2/authorization/google">
+                  <i className="google-i">
+                    <img src={process.env.PUBLIC_URL + "/img/google.png"}></img>
+                  </i>
                 </a>
               </li>
               <li>
-                <a href="/oauth2/authorization/naver">
-                  <i className="fab fa-instagram color-white"></i>
+                <a href="http://localhost:8096/oauth2/authorization/naver">
+                  <i className="naver-i">
+                    <img src={process.env.PUBLIC_URL + "/img/naver.png"}></img>
+                  </i>
                 </a>
               </li>
               <li>
-                <a href="/oauth2/authorization/kakao">
-                  <i className="fab fa-twitter color-white"></i>
+                <a href="http://localhost:8096/oauth2/authorization/kakao">
+                  <i className="kakao-i">
+                    <img src={process.env.PUBLIC_URL + "/img/kko.png"}></img>
+                  </i>
                 </a>
               </li>
             </ul>
