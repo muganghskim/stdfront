@@ -37,8 +37,8 @@ const Header: React.FC = () => {
       link: "/menu",
       subMenu: [
         { name: "모든상품", link: "/menu" },
-        { name: "일상복", link: "/menu/casual" },
-        { name: "스포츠", link: "/menu/sports" }
+        { name: "티셔츠", link: "/menu/tshirt" },
+        { name: "바지", link: "/menu/pants" }
       ]
     },
     {
