@@ -7,27 +7,39 @@ const Footer: React.FC = () => {
       <div id="footer">
         <div className="center">
           <div className="f-logo">
-            <img src={process.env.PUBLIC_URL + "/img/logo_w.png"}></img>
+            <img
+              src={process.env.PUBLIC_URL + "/img/logo_w.png"}
+              alt="풋터 로고 이미지"
+            ></img>
           </div>
           <ul className="f-icon">
             <li>
               <a href="http://localhost:8096/oauth2/authorization/google">
                 <i className="google-i">
-                  <img src={process.env.PUBLIC_URL + "/img/google.png"}></img>
+                  <img
+                    src={process.env.PUBLIC_URL + "/img/google.png"}
+                    alt="풋터 구글 로그인 이미지"
+                  ></img>
                 </i>
               </a>
             </li>
             <li>
               <a href="http://localhost:8096/oauth2/authorization/naver">
                 <i className="naver-i">
-                  <img src={process.env.PUBLIC_URL + "/img/naver.png"}></img>
+                  <img
+                    src={process.env.PUBLIC_URL + "/img/naver.png"}
+                    alt="풋터 네이버 로그인 이미지"
+                  ></img>
                 </i>
               </a>
             </li>
             <li>
               <a href="http://localhost:8096/oauth2/authorization/kakao">
                 <i className="kakao-i">
-                  <img src={process.env.PUBLIC_URL + "/img/kko.png"}></img>
+                  <img
+                    src={process.env.PUBLIC_URL + "/img/kko.png"}
+                    alt="풋터 카카오 로그인 이미지"
+                  ></img>
                 </i>
               </a>
             </li>
@@ -49,7 +61,10 @@ const Footer: React.FC = () => {
             COPYRUGHT (주)pacificOcean ALL RIGHTS RESERVED.
           </div>
         </div>
-        <div id="scTop" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+        <div
+          id="scTop"
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+        >
           <div className="upWrap">
             <i className="fa-solid fa-arrow-up-long"></i>
           </div>

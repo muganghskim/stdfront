@@ -65,7 +65,10 @@ const Header: React.FC = () => {
         <div className="center">
           <h1 className="logo">
             <a href="/">
-              <img src={process.env.PUBLIC_URL + "/img/logo.png"}></img>
+              <img
+                src={process.env.PUBLIC_URL + "/img/logo.png"}
+                alt="로고이미지"
+              ></img>
             </a>
           </h1>
           <div
@@ -118,21 +121,30 @@ const Header: React.FC = () => {
               <li>
                 <a href="http://localhost:8096/oauth2/authorization/google">
                   <i className="google-i">
-                    <img src={process.env.PUBLIC_URL + "/img/google.png"}></img>
+                    <img
+                      src={process.env.PUBLIC_URL + "/img/google.png"}
+                      alt="구글 로그인 이미지"
+                    ></img>
                   </i>
                 </a>
               </li>
               <li>
                 <a href="http://localhost:8096/oauth2/authorization/naver">
                   <i className="naver-i">
-                    <img src={process.env.PUBLIC_URL + "/img/naver.png"}></img>
+                    <img
+                      src={process.env.PUBLIC_URL + "/img/naver.png"}
+                      alt="네이버 로그인 이미지"
+                    ></img>
                   </i>
                 </a>
               </li>
               <li>
                 <a href="http://localhost:8096/oauth2/authorization/kakao">
                   <i className="kakao-i">
-                    <img src={process.env.PUBLIC_URL + "/img/kko.png"}></img>
+                    <img
+                      src={process.env.PUBLIC_URL + "/img/kko.png"}
+                      alt="카카오 로그인 이미지"
+                    ></img>
                   </i>
                 </a>
               </li>
@@ -209,21 +221,30 @@ const Header: React.FC = () => {
               <li>
                 <a href="http://localhost:8096/oauth2/authorization/google">
                   <i className="google-i">
-                    <img src={process.env.PUBLIC_URL + "/img/google.png"}></img>
+                    <img
+                      src={process.env.PUBLIC_URL + "/img/google.png"}
+                      alt="햄버거 메뉴 구글 로그인 이미지"
+                    ></img>
                   </i>
                 </a>
               </li>
               <li>
                 <a href="http://localhost:8096/oauth2/authorization/naver">
                   <i className="naver-i">
-                    <img src={process.env.PUBLIC_URL + "/img/naver.png"}></img>
+                    <img
+                      src={process.env.PUBLIC_URL + "/img/naver.png"}
+                      alt="햄버거 메뉴 네이버 로그인 이미지"
+                    ></img>
                   </i>
                 </a>
               </li>
               <li>
                 <a href="http://localhost:8096/oauth2/authorization/kakao">
                   <i className="kakao-i">
-                    <img src={process.env.PUBLIC_URL + "/img/kko.png"}></img>
+                    <img
+                      src={process.env.PUBLIC_URL + "/img/kko.png"}
+                      alt="햄버거 메뉴 카카오 로그인 이미지"
+                    ></img>
                   </i>
                 </a>
               </li>

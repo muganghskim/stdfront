@@ -27,7 +27,7 @@ const News: React.FC = () => {
           <a href="/board">
             <i className="fa-solid fa-arrow-right-long"></i>
           </a>
-          <img src="/img/ani_logo.png"></img>
+          <img src="/img/ani_logo.png" alt="애니메이션 이미지"></img>
         </div>
       </div>
     </>

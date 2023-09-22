@@ -265,6 +265,7 @@ const Join: React.FC = () => {
                       <i className="google-i">
                         <img
                           src={process.env.PUBLIC_URL + "/img/google.png"}
+                          alt="회원가입 구글 로그인 이미지"
                         ></img>
                       </i>
                     </a>
@@ -274,6 +275,7 @@ const Join: React.FC = () => {
                       <i className="naver-i">
                         <img
                           src={process.env.PUBLIC_URL + "/img/naver.png"}
+                          alt="회원가입 네이버 로그인 이미지"
                         ></img>
                       </i>
                     </a>
@@ -283,6 +285,7 @@ const Join: React.FC = () => {
                       <i className="kakao-i">
                         <img
                           src={process.env.PUBLIC_URL + "/img/kko.png"}
+                          alt="회원가입 카카오 로그인 이미지"
                         ></img>
                       </i>
                     </a>
