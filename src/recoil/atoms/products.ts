@@ -3,7 +3,7 @@
 import { atom } from "recoil";
 import axios from "axios";
 
-interface Product {
+export interface Product {
   id: string;
   name: string;
   category: string;
@@ -14,8 +14,8 @@ interface Product {
   imgUrl: string;
 }
 
-interface EnrollData {
-  userEmail: string;
+export interface EnrollData {
+  userEmail: string | null;
   pdName: string;
   categoryName: string;
   pdDetail: string;
@@ -102,7 +102,9 @@ export const enroll = async (data: EnrollData) => {
     image
   } = data;
   const formData = new FormData();
-  formData.append("userEmail", userEmail);
+  if (userEmail) {
+    formData.append("userEmail", userEmail);
+  }
   formData.append("pdName", pdName);
   formData.append("categoryName", categoryName);
   formData.append("pdDetail", pdDetail);
